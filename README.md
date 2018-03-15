@@ -10,6 +10,10 @@ Functionalities:
 Requirements:
 	- Python 2.7
 	- Oracle SQL Developer (http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
+
+Clone repo:
+	$ git clone https://github.com/tichima/oracleprac.git
+	$ git checkout -b tilden master
 	
 To run:
 	$ python oracleprac.py
