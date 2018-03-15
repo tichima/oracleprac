@@ -14,7 +14,7 @@ Requirements:
 Clone repo:	
 		
 		$ git clone https://github.com/tichima/oracleprac.git
-		$ git clone https://github.com/tichima/oracleprac.git
+		$ git checkout -b tilden master
 				
 To run:
 		
