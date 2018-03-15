@@ -39,10 +39,7 @@ UoD: Hospital
 
 PATIENT table - Columns: ID(PK), FNAME, LNAME, DOB
 
-++++++++++++++++++++++++++ FUTURE WORK ++++++++++++++++++++++
 
-- Add DOCTOR table - Columns: ID(PK), FNAME, LNAME
-- Add PRESCRIPTIONS table - Columns: ID(PK), PATIENTID(FK), DATE, DCTRID(FK)
 
 
 
