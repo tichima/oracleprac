@@ -11,26 +11,22 @@ Requirements:
 	- Python 2.7
 	- Oracle SQL Developer (http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
 
-Clone repo:
-	$ git clone https://github.com/tichima/oracleprac.git
-	$ git checkout -b tilden master
-	
+Clone repo:	
+		
+		$ git clone https://github.com/tichima/oracleprac.git
+		$ git clone https://github.com/tichima/oracleprac.git
+				
 To run:
-	$ python oracleprac.py
+		
+		$ python oracleprac.py
 	
 ++++++++++++++++++++++++++++++++++++++++++++++++
 Challenges faced:
 	- Navigating the Oracle DB Console
-		
-		- Took a while to find 
-			- how to enable access rules since I was working from scratch
-			- EM console
-		
-		- Verbose documentation
-			- took a while to understand how to procees after creating DB Instance
-			- use SSH (Secure Shell) to connect to cloud instance created using PuTTY
-		
-		- PuTTY SSH Key in unsupported default UNIX format since I was on a Windows machine
+	- Took a while to find how to enable access rules since I was working from scratch
+	- Verbose documentation
+	- use SSH (Secure Shell) to connect to cloud instance created using PuTTY
+	- PuTTY SSH Key in unsupported default UNIX format since I was on a Windows machine
 		
 Resources:
 	- http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/dbaas/obe_dbaas_QS/oracle_database_cloud_service_dbaas_quick_start.html
@@ -40,11 +36,9 @@ Resources:
 	
 ++++++++++++++++++++++++++ DATABASE OUTLINE ++++++++++++++++++++++
 
-UoD: L'Hopital
+UoD: Hospital
 
 TABLES: PATIENTS - ID, NAME, DOB
 		PRESCRIPTIONS - ID, PATIENT1D, DATE, DCTR
-
-	
 	
 !lisa.jones.OCular@4FeLLOW	
