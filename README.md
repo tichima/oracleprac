@@ -25,7 +25,7 @@ To run:
 +++++++++++++++++++++++ CHALLENGES FACED +++++++++++++++++++++++++
 
 - The (Secure Shell) SSH Key was in unsupported format since I was on a Windows machine, had to use PuTTY
-- Took a while to find how to enable access rules 
+
 		
 Resources:
 
