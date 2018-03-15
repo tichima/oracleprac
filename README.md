@@ -2,46 +2,52 @@
 
 Author: T Chima
 
-Functionalities:
-	- Update/Modify DB records for hospital management system
-	- Port DB information to XML
-	- Pull patient information using DB queries
+Intended Functionalities:
+- Update/Modify DB records for hospital management system (TBD)
+- Port DB information to XML (in progress)
+- Pull patient information using DB queries (in progress)
 	
-Requirements:
-	(1) Python 2.7
-	(2) Oracle SQL Developer (http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
-	(3) cx_Oracle which can be downloaded using:
+Requirements: (1) Python 2.7 (2) cx_Oracle module which can be downloaded using.	
 	
 	$ python -m pip install cx_Oracle --upgrade
+ 
+  Note: cx_Oracle needs Oracle Instant Client to be installed. Get it here: https://oracle.github.io/odpi/doc/installation.html#id1.
+        Ensure the Oracle Instant Client matches the installed 64 or 32 bit version of Python2.7
 
 Clone repo:	
 		
-		$ git clone https://github.com/tichima/oracleprac.git
-		$ git checkout -b tilden master
+	$ git clone https://github.com/tichima/oracleprac.git
+	$ git checkout -b tilden master
 				
 To run:
 		
-		$ python oracleprac.py
+	$ python oracleprac.py
 	
-++++++++++++++++++++++++++++++++++++++++++++++++
-Challenges faced:
-	- Navigating the Oracle DB Console
-	- Took a while to find how to enable access rules since I was working from scratch
-	- Verbose documentation
-	- use SSH (Secure Shell) to connect to cloud instance created using PuTTY
-	- PuTTY SSH Key in unsupported default UNIX format since I was on a Windows machine
++++++++++++++++++++++++ CHALLENGES FACED +++++++++++++++++++++++++
+
+- The (Secure Shell) SSH Key was in unsupported format since I was on a Windows machine, had to use PuTTY
+- Took a while to find how to enable access rules 
 		
 Resources:
-	- http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/dbaas/obe_dbaas_QS/oracle_database_cloud_service_dbaas_quick_start.html
-	- http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/apaas/python/python-oracle-accs/python-oracle-accs.html
-	- https://www.youtube.com/watch?v=w3WVqn3WySs
-	-
+
+- http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/dbaas/obe_dbaas_QS/oracle_database_cloud_service_dbaas_quick_start.html
+- http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/apaas/python/python-oracle-accs/python-oracle-accs.html
+- https://www.youtube.com/watch?v=w3WVqn3WySs
 	
-++++++++++++++++++++++++++ DATABASE OUTLINE ++++++++++++++++++++++
+++++++++++++++++++++++++++ CURRENT DB OUTLINE ++++++++++++++++++++++
 
 UoD: Hospital
 
-TABLES: PATIENTS - ID, NAME, DOB
-		PRESCRIPTIONS - ID, PATIENT1D, DATE, DCTR
-	
+PATIENT table - Columns: ID(PK), FNAME, LNAME, DOB
+
+++++++++++++++++++++++++++ FUTURE WORK ++++++++++++++++++++++
+
+- Add DOCTOR table - Columns: ID(PK), FNAME, LNAME
+- Add PRESCRIPTIONS table - Columns: ID(PK), PATIENTID(FK), DATE, DCTRID(FK)
+
+
+
+
+
+
 !lisa.jones.OCular@4FeLLOW	
