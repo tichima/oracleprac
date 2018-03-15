@@ -3,10 +3,10 @@
 Author: T Chima
 
 Intended Functionalities:
-- Update/Modify DB records for hospital management system (TBD)
-- Port DB information to XML (in progress)
-- Pull patient information using DB queries (in progress)
-	
+- Add patient records for hospital management system (added)
+- Pull all/Find unique patient record(s) (added)
+- Port patient information to XML (TBD)
+
 Requirements: (1) Python 2.7 (2) cx_Oracle module which can be downloaded using.	
 	
 	$ python -m pip install cx_Oracle --upgrade
