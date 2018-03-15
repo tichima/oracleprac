@@ -1,6 +1,4 @@
-"# oracleprac" 
-
-Author: T Chima
+"# oracleprac T Chima"
 
 Intended Functionalities:
 - Add patient records for hospital management system (added)
