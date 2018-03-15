@@ -15,8 +15,9 @@ Requirements: (1) Python 2.7 (2) cx_Oracle module which can be downloaded using.
 Clone repo:	
 		
 	$ git clone https://github.com/tichima/oracleprac.git
-	$ git checkout -b tilden master
 				
+Easy way to use GitHub: http://bit.ly/2FTHYN4
+
 To run:
 		
 	$ python oracleprac.py
