@@ -8,8 +8,11 @@ Functionalities:
 	- Pull patient information using DB queries
 	
 Requirements:
-	- Python 2.7
-	- Oracle SQL Developer (http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
+	(1) Python 2.7
+	(2) Oracle SQL Developer (http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
+	(3) cx_Oracle which can be downloaded using:
+	
+	$ python -m pip install cx_Oracle --upgrade
 
 Clone repo:	
 		
