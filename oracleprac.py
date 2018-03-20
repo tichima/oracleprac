@@ -13,6 +13,9 @@ def connectDB(): # establish connection to Oracle cloud DB
 	import cx_Oracle
 	#con = cx_Oracle.connect('system/XUCVAdwd1_@129.157.176.137:1521/orcl')
 	
+	print '\nEstablishing Connection...\n'
+	
+	
 	ip = '129.157.176.137'
 	port = 1521
 	SID = 'ORCL'
